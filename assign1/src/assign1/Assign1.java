@@ -38,6 +38,7 @@ public class Assign1 {
         driver.findElement(By.xpath("//*[@id=\"layer_cart\"]/div[1]/div[1]/span")).click();
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"block_top_menu\"]/ul/li[3]/a")).click();
+        Thread.sleep(1000);
         Select first=new Select(driver.findElement(By.xpath("//*[@id=\"selectProductSort\"]")));
         first.selectByIndex(1);
         Thread.sleep(1000);
@@ -48,8 +49,11 @@ public class Assign1 {
         driver.findElement(By.xpath("//*[@id=\"header\"]/div[3]/div/div/div[3]/div/a/b")).click();
         Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"cart_quantity_up_1_1_0_0\"]/span/i")).click();
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"cart_quantity_up_1_1_0_0\"]/span/i")).click();
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"cart_quantity_up_1_1_0_0\"]/span/i")).click();
+        Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"cart_quantity_up_1_1_0_0\"]/span/i")).click();
          Thread.sleep(1000);
         driver.findElement(By.xpath("//*[@id=\"center_column\"]/p[2]/a[1]/span")).click();
